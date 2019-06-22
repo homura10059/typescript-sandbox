@@ -4,5 +4,10 @@
   "main": "index.js",
   "repository": "https://github.com/o-hayato/typescript-sandbox.git",
   "author": "o-hayato <preasper0+github@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.2"
+  }
 }
