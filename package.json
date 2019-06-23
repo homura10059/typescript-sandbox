@@ -6,6 +6,10 @@
   "author": "o-hayato <preasper0+github@gmail.com>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "clean": "rm -rf dist/*",
+    "build": "npx tsc"
+  },
   "devDependencies": {
     "ts-node": "^8.3.0",
     "typescript": "^3.5.2"
